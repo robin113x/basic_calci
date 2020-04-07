@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/fst"
+
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/sec"
+
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="#F14D1A"
+        android:textSize="50dp" />
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="66dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/add"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="66dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="@string/syb"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="66dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="@string/mul"
+        android:textSize="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="66dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="@string/div"
+         android:textSize="30dp"/>
+
+
+
+
+
+
+ </LinearLayout>
+
+
+

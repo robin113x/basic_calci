@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Robin</string>
+    <string name="fst">enter 1st no</string>
+    <string name="sec">enter 2nd no</string>
+    <string name="res">Result</string>
+    <string name="add">+</string>
+    <string name="syb">-</string>
+    <string name="mul">x</string>
+    <string name="div">%</string>
+
+
+</resources>
